@@ -1,0 +1,86 @@
+.navbar{
+    color: white;
+    background-color: #2C3333;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    /* position: fixed; */
+    width: 100%;
+    top: 0;
+    justify-content: center;
+    /* height: 50px; */
+    text-align: center;
+    padding: 20px;
+}
+
+.app{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.searches{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.search{
+    width : 24px
+}
+
+.search-bar{
+    height: 30px;
+    border-radius: 5px;
+}
+
+button{
+    background-color: white;
+    height: 32px;
+    cursor: pointer;
+}
+
+
+.links {
+    margin-right: 50px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    height:100%;
+    align-items: stretch;
+}
+
+.title-link {
+    margin-right: 50px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    height:100%;
+    align-items: stretch;
+    font-size: x-large;
+}
+
+.links:hover {
+    background-color: #777;
+    border-radius: 5px;
+}
+
+.title-link:hover {
+    background-color: #777;
+    border-radius: 5px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* padding: 30px */
+
+  }
+
+.words{
+    color: black;
+}
